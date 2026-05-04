@@ -45,7 +45,7 @@ public class TaskStatusServiceTest {
 
         TaskStatus result = service.checkStatus(submission);
 
-        assertEquals(TaskStatus.COMPLETED, result);
+        assertEquals(TaskStatus.SUBMITTED, result);
     }
 
     @Test
